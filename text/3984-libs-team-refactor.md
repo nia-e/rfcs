@@ -48,7 +48,7 @@ Further, several terms which appear throughout this RFC should be understood to 
 - **deadlock**
     - A conversation is understood to be in *deadlock* when, following extensive conversation, neither party to the conversation is willing or able to reach a mutual compromise with the other(s). The mechanisms about deadlock resolution specifically apply when these parties are members of the libs team.
 - **self-nominate**
-    - Self-nominations to various positions is to be effected privately via a message to a team lead. This does not necessarily need to be in writing. It is the duty of the team lead(s) to present the list of nominees to the appropriate body afterwards.
+    - Self-nominations to various positions is to be effected privately to a team lead. This does not necessarily need to be in writing. It is the duty of the team lead(s) to present the list of nominees to the appropriate body afterwards.
 
 [triagebot]: https://forge.rust-lang.org/triagebot/index.html
 [desktop]: https://forge.rust-lang.org/infra/docs/dev-desktop.html
@@ -63,19 +63,19 @@ The library team family will be consolidated to consist of only two distinct tea
 
 The top-level team consists of all members of any team previously under the libs team family. That is, all former members of libs, libs-api, and libs-contributors are to be consolidated into a new libs team. Members of the crate-maintainers team are automatically extended an invitation to join the new libs team should they so desire. Members are granted *umbrella privileges* as above, with the possibility of adding themselves to *review rotation*.
 
-It is expected that the libs-fcp team schedules at least one weekly libs team meeting, wherein at least items nominated for the libs team are discussed. The libs-fcp team is free to decide internally when its meetings are held, their duration, and which topics are or are not relevant to any given meeting, so long as they are held on a consistent schedule which reasonably accomodates for the availabilities of all libs-fcp members and enables participation from other libs members. All meetings are to be open to the public unless the libs-fcp team decides by consensus to restrict attendance for some particular meeting. Minutes and agendas from public meetings must also be posted publicly on Zulip.
+The libs team should hold at least one weekly meeting, with its scheduling determined by [libs-fcp][libs-fcp-team], wherein at least items nominated for the libs team are discussed. The libs-fcp team is free to decide internally when these meetings are held, their duration, and which topics are or are not relevant to any given meeting, so long as they are held on a consistent schedule which reasonably accomodates for the availabilities of all libs-fcp members and enables participation from other libs members. All meetings are to be open to the public unless the libs-fcp team decides by consensus to restrict attendance for some particular meeting. Minutes and agendas from public meetings must also be posted publicly on Zulip.
 
 #### Selection process
 
 Anyone whose addition may be valuable to the development of the Rust standard library or related crates under the purview of the libs team may be nominated for membership in the team by an extant member. This nomination does not necessarily have to be expansive, but should be sufficient to assure the team that the nominee can be trusted with *umbrella privileges*. This may be as brief as a single sentence if there is no serious ground for concerns. Note that contributions need not necessarily consist of code, but also include documentation, productive engagement in complex conversations, and anything that could be seen as facilitating the work of other members.
 
-Any preexisting member may issue an objection to a nominee. Objections are considered blocking in the nomination process, and are to be accompanied by motivating reasoning. The criteria which may justify an objection are left intentionally unspecified, so as to allow for flexibility in the decision-making process. By courtesy, objections are to be sent privately to the team leads instead of being announced publicly; however the motivation should, if possible, be made public.
+Any preexisting member may issue an objection to a nominee. Objections are considered blocking in the nomination process, and are to be accompanied by motivating reasoning. The criteria which may justify an objection are left intentionally unspecified, so as to allow for flexibility in the decision-making process. By courtesy, it is recommended that objections be communicated privately to the team leads instead of being announced publicly; however an anonymised copy of the motivation should, if possible, be made public.
 
 Members may also second a nominee if they believe them to be a valuable addition to the team, without necessarily requiring any motivation.
 
-If a period of 10 days has passed within which a nominee has been seconded and has no outstanding objections, the nominee is automatically added to the team and granted the relevant privileges. If the nominee was not previously part of the Rust project, moderation will first be asked to ensure there are no potential issues with their joining, with the addition to the team only taking effect after moderation signoff.
+If a period of 10 days has passed within which a nominee has been seconded and has no outstanding objections, the team leads must assess whether the nomination has been sufficiently discussed by team membership; if so, the nominee is added to the team and granted the relevant privileges. If the nominee was not previously part of the Rust project, moderation will first be asked to ensure there are no potential issues with their joining, with the addition to the team only taking effect after moderation signoff.
 
-If on the contrary, 20 days after a nomination, no seconds are outstanding and/or there are still outstanding objections, a countdown of 10 days begins. If objections persist, or, lacking objections, no seconds are put forward, the nomination is automatically withdrawn. Note that this similarly requires that there exists some singular objection which is outstanding for the entirety of these 10 days.
+If on the contrary, 20 days after a nomination, no seconds are outstanding and/or there are still outstanding objections, a countdown of 10 days begins. If objections persist, or, lacking objections, no seconds are put forward, the nomination is automatically withdrawn. Note that this requires that there exists some singular objection which is outstanding for the entirety of these 10 days.
 
 #### Expected activities
 
@@ -87,9 +87,9 @@ After some member of libs has been inactive for at least twelve months, they may
 
 #### ACP process
 
-Any libs team member may approve an [API change proposal][acp] that has been submitted (excepting the author of the ACP). It is highly recommended, though not explicitly required, that a waiting period of ten days from submission be observed between an ACP being submitted and it being approved.
+Any libs team member may approve an [API change proposal][acp] that has been submitted (excepting the author of the ACP). It is highly recommended, though not explicitly required, that a waiting period of 10 days from submission be observed between an ACP being submitted and it being approved.
 
-Approval of an ACP does not necessarily guarantee that it will be included stably in the standard library, but signals that the relevant proposal may be of interest to the team, and seems *reasonably likely* in the judgment of a libs member to pass a subsequent libs-fcp team FCP without objecions. It is left to the judgement of individual team members whether some given ACP has received the necessary amount of scrutiny before being approved, and approval should signal confidence from the approver in the ACP's chances of future stabilisation. Note that ACPs proposing a [breaking change][breaking] require a subsequent FCP.
+Approval of an ACP does not necessarily guarantee that it will be included stably in the standard library, but signals that the relevant proposal may be of interest to the team, and that it seems *reasonably likely* in the judgment of a libs member to pass a subsequent libs-fcp team FCP without requiring changes on the scale of a total overhaul. It is left to the judgement of individual team members whether some given ACP has received the necessary amount of scrutiny before being approved, and approval should signal confidence from the approver in the ACP's chances of future stabilisation. Note that ACPs proposing a [breaking change][breaking] require a subsequent FCP.
 
 An ACP should *not* be approved if its author does not appear to have thoroughly explored alternative solutions and there appear to be, or will be in the near future, outstanding conflicting proposals that have not also been given due consideration.
 
