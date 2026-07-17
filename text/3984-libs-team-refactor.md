@@ -93,13 +93,13 @@ Approval of an ACP does not necessarily guarantee that it will be included stabl
 
 An ACP should *not* be approved if its author does not appear to have thoroughly explored alternative solutions and there appear to be, or will be in the near future, outstanding conflicting proposals that have not also been given due consideration.
 
-Any libs team member may object to an ACP's approval. Note that if the only concern is over naming/bikeshedding, and there are no concerns about the structure, then concerns should be deferred until future stabilization to allow development to proceed.
+Any libs team member may object to an ACP's approval. Note that if the only concerns regard naming/bikeshedding, without outstanding concerns over a proposal's structure, these concerns should be deferred until future stabilization to allow development to proceed.
 
 If an ACP appears major enough to warrant in-depth discussion or its implementation requires sufficient work that a stronger signal from the team in confidence for its success is necessary, or if it has both objections and support, any participant to conversation may nominate that ACP for synchronous discussion in a team meeting, at which point meeting participants on the libs team are expected to issue a joint opinion on the proposal.
 
 An FCP resolving in favour of a proposal overrides any standing objections to the given ACP.
 
-This process does not currently have any explicit mechanism to make a decision to reject ACP and close it; designing and evolving a process for doing so is left as the prerogative of the libs-fcp team, to avoid making it part of this RFC.
+This process does not currently have any explicit mechanism to make a decision to reject an ACP and close it; designing and evolving a process for doing so is left as the prerogative of the libs-fcp team, to avoid making it part of this RFC.
 
 The libs team will attempt to regularly curate and manage the ACP backlog.
 
