@@ -20,7 +20,7 @@ The library team has evolved considerably over time, with its current structure 
 
 This fuzzy overlap between top level teams results in occasional friction during their respective team meetings, with time often spent attempting to determine whether a given agenda point is indeed relevant for said meeting or should be discussed in the other top level team's meeting. Attendance of these meetings also does not necessarily follow either the distinction between the teams or the separation between libs/libs-api and libs-contributors, with the FCP rights of the top-level teams not matching either those involved in conversations or those doing work on various aspects of libraries.
 
-Furthermore, the libs-contributors team now numbers 20 members, alongside auxiliary teams that strongly overlap in responsibilities such as crate-maintainers and libc. The permissions afforded to the members of these teams are approximately equal between each other, and the distinction moreso represents the historical circumstances whereby a given member entered the broader libs team family than their concrete current areas of involvement.
+Furthermore, the libs-contributors team now numbers 20 members, alongside auxiliary teams that strongly overlap in responsibilities such as crate-maintainers. The permissions afforded to the members of these teams are approximately equal between each other, and the distinction moreso represents the historical circumstances whereby a given member entered the broader libs team family than their concrete current areas of involvement.
 
 Given these changes, we propose a simplified structure in order to facilitate the work done by the library team and its subteams.
 
