@@ -149,6 +149,8 @@ Any member of the libs team may request to start a no-confidence vote to this ef
 
 After 14 days, if the ratio of yes votes to no votes is at least 6:4 and at least 50% of the libs team has voted, the libs-fcp team is automatically dissolved. At this point, the libs team is expected to select two new team leads from amongst themselves. These lead nominees must enjoy at least 2/3rds support from the team as determined by a vote. The new leads will then propose a new libs-fcp team as a subset of the members of the libs team. The libs team has 10 days to object to this new list; if 10 days pass with no objections, the new libs-fcp team is automatically instated.
 
+This mechanism is intentionally not perfect and may be subject to degenerate corner-cases, but it is written with the understanding that such a case likely warrants outside intervention from Rust Project leadership.
+
 [rfcbot]: https://github.com/rust-lang/rfcbot-rs
 [breaking]: https://std-dev-guide.rust-lang.org/breaking-changes/summary.html
 
