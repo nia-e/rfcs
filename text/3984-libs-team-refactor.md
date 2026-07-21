@@ -135,6 +135,8 @@ An FCP, or Final Comment Period, is required for any change which would either b
 
 If an FCP appears unresolvably deadlocked due to blocking concerns from non-libs-fcp members, libs-fcp consensus may overrule those concerns.
 
+Additionally, it is expected that the broader libs membership is kept up-to-date with ongoing FCPs, such as by a ping when an FCP opens. In the case that only a subset of the libs team wishes to be informed of every new FCP, an ad-hoc ping group or team may be formed.
+
 #### Ad-hoc subteams
 
 It may be the case that the libs-fcp team wishes to separate its activities along various lines, such as distinct areas of the standard library, API design versus implementation, etc.; in such cases, libs-fcp is empowered to delegate its FCP rights in certain cases to any subteam(s) of itself as it sees fit should there be internal consensus to do so. These may take the form of standing subteams with dedicated meetings and agendas, ad-hoc ping groups, topic-specific FCP lists, or anything in between.
