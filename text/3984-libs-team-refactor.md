@@ -56,7 +56,7 @@ Further, several terms which appear throughout this RFC should be understood to 
 ## Team structure
 [team-structure]: #team-structure
 
-The library team family will be consolidated to consist of only two distinct teams, as below.
+The libs, libs-api, and libs-contributors teams will be consolidated into only two distinct teams, as below.
 
 ### Libs team
 [libs-team]: #libs-team
