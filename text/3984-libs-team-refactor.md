@@ -119,7 +119,7 @@ The self-nomination period lasts 14 days, following which the old libs-fcp team 
 
 If insufficient nominees exist to reach the minimum size threshold, or if a member of libs-fcp resigns or is removed during the course of their 12-month term dropping the membership count below 5, the team must attempt to explicitly invite libs team members to join libs-fcp until the team meets the minimum membership count again. If no potential candidates have consensus approval, libs-fcp may continue at a reduced size until such candidates are found. Libs-fcp should further attempt to nominate promising candidates from outside of the libs team for membership in libs to facilitate its reassuming of the desired minimum size. The invitation mechanism into libs-fcp may also be invoked any time the libs-fcp team consists of less than 8 members, should the team agree to do so by consensus.
 
-The initial composition of this team is to be determined jointly by members of the previous libs team by the same process, as if the libs team had constituted a previous libs-fcp team composition.
+The initial composition of this team is to be determined jointly by members of the previous libs and libs-api teams by the same process, as if the libs team had constituted a previous libs-fcp team composition.
 
 [facilitator]: https://github.com/rust-lang/leadership-council/blob/main/guides/representative-selection.md
 
